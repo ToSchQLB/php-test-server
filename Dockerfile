@@ -8,3 +8,5 @@ CMD apt-get update -y && \
       pdo \ 
       pdo_mysql \
       gd
+
+CMD ["php-fpm"]
