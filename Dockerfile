@@ -6,6 +6,7 @@ CMD apt-get update -y && \
       libmagickwand-dev && \ 
     pecl install imagick && \
     docker-php-ext-enable imagick && \
-    docker-php-ext-install pdo \ 
+    docker-php-ext-install mysqli \
+      pdo \ 
       pdo_mysql \
       gd
