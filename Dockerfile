@@ -2,6 +2,7 @@ FROM php:7-fpm
 
 RUN apt-get update -y && \ 
     apt-get install -y \
+        libzip \
         libpng-dev \
         libmagickwand-dev && \
     pecl install \
