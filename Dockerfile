@@ -9,6 +9,7 @@ RUN apt-get update -y && \
     docker-php-ext-enable \
         imagick && \
     docker-php-ext-install \
+        zip \
         gd \
         pdo \
         pdo_mysql
