@@ -6,6 +6,7 @@ RUN apt-get update -y && \
         libzip-dev \
         libpng-dev \
         libmagickwand-dev && \
+    docker-php-ext-configure zip --with-libzip && \
     pecl install \
         imagick && \ 
     docker-php-ext-enable \
