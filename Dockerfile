@@ -10,6 +10,7 @@ RUN apt-get update -y && \
         imagick && \
     docker-php-ext-install \
         zip \
+        zlib \
         gd \
         pdo \
         pdo_mysql
