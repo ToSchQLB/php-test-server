@@ -2,6 +2,7 @@ FROM php:7-fpm
 
 RUN apt-get update -y && \ 
     apt-get install -y \
+        git \
         zip \
         libzip-dev \
         libpng-dev \
