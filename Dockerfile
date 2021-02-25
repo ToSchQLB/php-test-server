@@ -15,7 +15,8 @@ RUN apt-get update -y && \
         zip \
         gd \
         pdo \
-        pdo_mysql
+        pdo_mysql \
+        intl
 
 # Install xdebug
 RUN pecl install xdebug-2.9.1 \
