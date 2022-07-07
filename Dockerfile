@@ -6,6 +6,7 @@ RUN apt-get update -y && \
         zip \
         libzip-dev \
         libpng-dev \
+        libpq-dev \
         libmagickwand-dev && \
     pecl install \
         imagick && \ 
