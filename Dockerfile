@@ -16,6 +16,7 @@ RUN apt-get update -y && \
         gd \
         pdo \
         pdo_mysql \
+        pdo-pgsql \
         intl
 
 # Install xdebug
